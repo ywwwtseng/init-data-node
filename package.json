@@ -1,0 +1,21 @@
+{
+  "name": "@ywwwtseng/init-data-node",
+  "description": "The package provides utilities to work with the initialization data of Telegram Mini Apps on the server side.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --dts --clean"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.23",
+    "tsup": "^8.5.0",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@tma.js/init-data-node": "^2.0.0",
+    "@ywwwtseng/ywjs": "^0.1.0"
+  }
+}
